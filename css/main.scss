@@ -50,6 +50,7 @@ $col-table: #f0f4f7;
 $col-grey: #a6a9ad;
 $col-grey-p: #556268;
 $col-dotted: #e7e8ea;
+$col-scroll-line: #e3e9eb;
 
 /* fonts */
 $font : 'Roboto', sans-serif;
@@ -293,3 +294,26 @@ a {
   }
 }
 /* ----------CHOOSE END-----------*/
+
+/* ----------SCROLL START-----------*/
+#scroll {
+  border-bottom: 1px solid $col-scroll-line;
+  position: relative;
+  .expand {
+    /*background-image: url(../img/expand.png);*/
+    width: 39px;
+    height: 39px;
+    border: 1px solid $col-scroll-line;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    background: $col-white;
+    text-align: center;
+    line-height: 39px;
+    img {
+      width: 11px;
+    }
+  }
+}
+/* ----------SCROLL END-----------*/
