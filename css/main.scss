@@ -1,0 +1,80 @@
+/*---------- Common Start ----------*/
+
+/* RESET */
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,
+a, ul, li,
+article, footer, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+input, textarea, select {
+  outline: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,900');
+
+/* VARIABLES */
+
+/* Colors */
+$col-main : #112233;
+$col-white : #fff;
+$col-green : #1ec54e;
+$col-green-act : #3add69;
+$col-cons : #19324b;
+$col-line : #e5e9ee;
+$col-placeholder : #b7bcc1;
+$col-input : #d5d9df;
+$col-button-act : #e3e9eb;
+$col-button : #f0f4f7;
+$col-para: #889099;
+$col-for-sale: #556268;
+$col-block: #f1f6fa;
+$col-table: #f0f4f7;
+$col-grey: #a6a9ad;
+
+/* fonts */
+$font : 'Roboto', sans-serif;
+
+
+/* BASE */
+
+body {
+  font-family: $font;
+  color: $col-main;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $col-green;
+  &:hover {
+    color: $col-green-act;
+    text-decoration: none;
+  }
+}
+
+/*----------  Common End  ----------*/
+
+/* ----------HEADER START-----------*/
