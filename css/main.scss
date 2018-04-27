@@ -51,7 +51,6 @@ $col-grey: #a6a9ad;
 $col-grey-p: #556268;
 $col-dotted: #e7e8ea;
 $col-scroll-line: #e3e9eb;
-
 /* fonts */
 $font : 'Roboto', sans-serif;
 
@@ -319,5 +318,120 @@ a {
 /* ----------SCROLL END-----------*/
 
 /* ----------SAVE START-----------*/
+#save {
+  .save-title {
+    width: 494px;
+    margin: 0 auto;
+    h2 {
+      margin-top: 85px;
+      margin-bottom: 25px;
+      font-size: 36px;
+      font-weight: 500;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 32px;
+      margin-bottom: 57px;
+    }
+  }
+
+  .block {
+    width: 370px;
+    height: 180px;
+    border-radius: 4px;
+    background-color: $col-block;
+    margin-bottom: 127px;
+    .you-save {
+      font-size: 18px;
+      font-weight: 700;
+      /*line-height: 32.01px;*/
+      text-transform: uppercase;
+      margin-bottom: 16px;
+      padding-top: 35px;
+    }
+    .price {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 32.01px;
+      color: $col-green;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      font-weight: 400;
+      margin-top: 19px;
+      margin-bottom: 34px;
+      span {
+        font-weight: 700;
+      }
+    }
+  }
+
+
+  .range {
+    .range-from {
+      p {
+        font-size: 14px;
+        font-weight: 700;
+        padding-top: 10px;
+      }
+    }
+
+    .range-to {
+      p {
+        font-size: 14px;
+        font-weight: 700;
+        padding-top: 10px;
+      }
+    }
+  }
+
+  .btns {
+    .btn-sell {
+      width: 185px;
+      height: 56px;
+      box-shadow: 0 5px 30px rgba(29, 212, 81, 0.4);
+      border-radius: 4px;
+      background-color: $col-green;
+      font-size: 18px;
+      font-weight: 500;
+      color: $col-white;
+      margin-right: 19px;
+      &:hover {
+        opacity: 0.95;
+        box-shadow: 0 5px 30px rgba(29,212,81,.7);
+        transition: .5s;
+      }
+    }
+
+    .btn-buy {
+      width: 185px;
+      height: 56px;
+      border-radius: 4px;
+      border: 2px solid $col-green;
+      background-color: $col-white;
+      font-size: 18px;
+      font-weight: 500;
+      &:hover {
+        opacity: 0.8;
+        box-shadow: 0 5px 30px rgba(29,212,81,.4);
+        transition: .5s;
+      }
+    }
+  }
+
+  .help {
+    margin-top: 34px;
+    margin-bottom: 94px;
+    p {
+      font-size: 18px;
+      font-weight: 500;
+      span {
+        color: $col-green;
+      }
+    }
+  }
+}
 
 /* ----------SAVE END-----------*/
