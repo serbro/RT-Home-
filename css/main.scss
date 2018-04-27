@@ -48,6 +48,8 @@ $col-for-sale: #556268;
 $col-block: #f1f6fa;
 $col-table: #f0f4f7;
 $col-grey: #a6a9ad;
+$col-grey-p: #556268;
+$col-dotted: #e7e8ea;
 
 /* fonts */
 $font : 'Roboto', sans-serif;
@@ -220,3 +222,74 @@ a {
   
 }
 /* ----------MAIN END-----------*/
+
+/* ----------CHOOSE START-----------*/
+#choose {
+  padding-bottom: 86px;
+  h2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 68px;
+    margin-bottom: 68px;
+  }
+
+  .wrapper {
+    font-size: 20px;
+    font-weight: 500;
+    img {
+      height: 87px;
+    }
+    h4 {
+      font-size: 20px;
+      font-weight: 500;
+      margin-top: 37px;
+      margin-bottom: 20px;
+    }
+    p {
+      color: $col-grey-p;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 23.99px;
+      width: 280px;
+      margin: 0 auto;
+    }
+  }
+
+  .dotted {
+      width: 70px;
+      display: inline-block;
+      position: absolute;
+      right: -10%;
+      top: 22%;
+
+      .dot {
+        width: 10px;
+        height: 10px;
+        margin: 0 auto;
+        border-radius: 50%;
+        background-color: $col-dotted;
+        &:before {
+          content: '';
+          display: block;
+          position: absolute;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background-color: $col-dotted;
+          left: 0;
+      }
+        &:after {
+          content: '';
+          display: block;
+          position: absolute;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background-color: $col-dotted;
+          right: 0;
+        }
+        
+    }
+  }
+}
+/* ----------CHOOSE END-----------*/
