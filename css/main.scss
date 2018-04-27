@@ -168,6 +168,14 @@ a {
       font-weight: 500;
       text-transform: uppercase;
       letter-spacing: 0.6px;
+      margin-bottom: 9px;
+    }
+    select {
+      width: 100%;
+      border: none;
+      option {
+        border: none;
+      }
     }
   }
 
@@ -180,17 +188,33 @@ a {
       font-weight: 500;
       text-transform: uppercase;
       letter-spacing: 0.6px;
+      margin-bottom: 9px;
+    }
+    input {
+      border: none;
+      width: 480px;
+    }
+    input::placeholder {
+      color: $col-placeholder;
     }
   }
 
   .btn {
-    
+      padding: 0;
+      position: absolute;
+      right: 43px;
+      top: 4px;
     button {
       width: 70px;
       height: 70px;
       box-shadow: 0 0 20px rgba(29, 212, 81, 0.2);
       border-radius: 4px;
       background-color: $col-green;
+      &:hover {
+      background-color: $col-green-act;
+      box-shadow: 0 5px 30px rgba(29,212,81,.7);
+      transition: .5s;
+      }
     }
   }
   
