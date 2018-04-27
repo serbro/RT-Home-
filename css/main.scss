@@ -125,3 +125,74 @@ a {
     margin-right: -160px;
   }
 }
+
+/* ----------HEADER END-----------*/
+
+/* ----------MAIN START-----------*/
+#main {
+  background: url(../img/hero-home.jpg) 80% 100%;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+  /*background-image: url(../img/main.jpg);*/
+  .offer {
+    width: 760px;
+    h1 {
+      font-size: 54px;
+      font-weight: 900;
+      line-height: 70px;
+      margin-top: 115px;
+      margin-bottom: 25px;
+    }
+    p {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 32px;
+      margin-bottom: 44px;
+    }
+  }
+}
+
+.search {
+  width: 800px;
+  height: 80px;
+  box-shadow: 0 0 30px rgba(0, 1, 1, 0.07);
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-bottom: 430px;
+  .sel {
+    width: 180px;
+    padding: 21px;
+    p {
+      color: $col-green;
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+    }
+  }
+
+  .loc {
+    padding: 20px;
+    border-left: 1px solid $col-line;
+    p {
+      color: $col-green;
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+    }
+  }
+
+  .btn {
+    
+    button {
+      width: 70px;
+      height: 70px;
+      box-shadow: 0 0 20px rgba(29, 212, 81, 0.2);
+      border-radius: 4px;
+      background-color: $col-green;
+    }
+  }
+  
+}
+/* ----------MAIN END-----------*/
