@@ -52,6 +52,7 @@ $col-grey-p: #556268;
 $col-dotted: #e7e8ea;
 $col-scroll-line: #e3e9eb;
 $col-sec-slider: #f5f8fb;
+$col-reserv: #525a5e;
 /* fonts */
 $font : 'Roboto', sans-serif;
 
@@ -657,6 +658,20 @@ footer {
 }
 
 .footer-bottom {
-  
+  ul {
+    li {
+      margin-right: 24px;
+    }
+    a:hover {
+      color: #83949c;
+    } 
+  }
+}
+p {
+  margin-top: 17px;
+  margin-bottom: 62px;
+  color: $col-reserv;
+  font-size: 14px;
+  font-weight: 400;
 }
 /* -----FOOTER END------- */
