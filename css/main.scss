@@ -575,33 +575,48 @@ a {
     border: 1px solid $col-green;
     right: 0;
     top: 0;
+  }
+}
+
+/* -----CONSULTATION SECTION START------- */
+
+#request {
+  background-color: $col-cons;
+
+  p {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+    color: $col-white;
+    width: 509px;
+    margin: 48px auto 0 auto;
+  }
+
+  button {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    width: 270px;
+    height: 56px;
+    box-shadow: 0 5px 30px rgba(29, 212, 81, 0.4);
+    border-radius: 4px;
+    background-color: $col-green;
+    margin-top: 24px;
+    margin-bottom: 58px;
+    &:hover {
+      background-color: $col-green-act;
+      box-shadow: 0 5px 30px rgba(29,212,81,.7);
+      transition: .5s;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #request {
+      p {
+        width: 100%;
+      }
     }
   }
 }
 
-/* ----------TESTIMONIALS END-----------*/
-/*  .dot {
-        width: 10px;
-        height: 10px;
-        margin: 0 auto;
-        border-radius: 50%;
-        background-color: $col-dotted;
-        &:before {
-          content: '';
-          display: block;
-          position: absolute;
-          width: 10px;
-          height: 10px;
-          border-radius: 50%;
-          background-color: $col-dotted;
-          left: 0;
-      }
-        &:after {
-          content: '';
-          display: block;
-          position: absolute;
-          width: 10px;
-          height: 10px;
-          border-radius: 50%;
-          background-color: $col-dotted;
-  }*/
+/* -------CONSULTATION SECTION END------- */
