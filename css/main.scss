@@ -512,6 +512,7 @@ a {
 
 /* ----------TESTIMONIALS START-----------*/
 #testimonials {
+  background-color: $col-sec-slider;
   h2 {
     font-size: 36px;
     font-weight: 500;
@@ -578,7 +579,7 @@ a {
   }
 }
 
-/* -----CONSULTATION SECTION START------- */
+/* -----REQUEST START------- */
 
 #request {
   background-color: $col-cons;
@@ -619,4 +620,43 @@ a {
   }
 }
 
-/* -------CONSULTATION SECTION END------- */
+/* -------REQUEST END------- */
+
+/* -----FOOTER START------- */
+footer {
+  background-color: $col-sec-slider;
+}
+
+.footer-top {
+  padding-top: 60px;
+  margin-bottom: 60px;
+  h5 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 36px;
+  }
+  ul {
+    li {
+      margin-bottom: 13px;
+      color: #556268;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    a:hover {
+          color: #83949c;
+        }   
+  }
+  
+  span {
+    color: $col-green;
+    margin-top: 15px;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+
+.footer-bottom {
+  
+}
+/* -----FOOTER END------- */
