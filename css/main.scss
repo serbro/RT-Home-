@@ -629,6 +629,7 @@ footer {
 }
 
 .footer-top {
+
   padding-top: 60px;
   margin-bottom: 60px;
   h5 {
@@ -658,7 +659,13 @@ footer {
 }
 
 .footer-bottom {
+  
+  .line {
+    border-top: 1px solid $col-line;
+    padding-top: 30px;
+  }
   ul {
+    margin-bottom: 17px;
     li {
       margin-right: 24px;
     }
@@ -666,12 +673,31 @@ footer {
       color: #83949c;
     } 
   }
+
+  p {
+    margin-bottom: 62px;
+    color: $col-reserv;
+    font-size: 14px;
+    font-weight: 400;
+  }
 }
-p {
-  margin-top: 17px;
-  margin-bottom: 62px;
-  color: $col-reserv;
-  font-size: 14px;
-  font-weight: 400;
+
+
+
+.awesome {
+  background-color: #b7bcc1;
+  margin-left: 9px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  &:hover {
+    background-color: #889099;
+  }
 }
+
+
+
 /* -----FOOTER END------- */
