@@ -386,7 +386,9 @@ a {
       height: 7px;
       border-radius: 4px;
       background-color: #e8edf1;
+      /*background:-webkit-linear-gradient(left ,$col-green 0%,$col-green 25%,#e8edf1 25%, #e8edf1 100%);*/
     }
+
     #range::-webkit-slider-thumb {
       -webkit-appearance: none;
       width: 35px;
@@ -399,6 +401,7 @@ a {
       background-repeat: no-repeat;
       background-position: center;
     }
+
 
     #range::-moz-range-track {
       -webkit-appearance: none;
