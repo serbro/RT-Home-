@@ -400,6 +400,26 @@ a {
       background-position: center;
     }
 
+    #range::-moz-range-track {
+      -webkit-appearance: none;
+      width: 771px;
+      height: 7px;
+      border-radius: 4px;
+      background-color: #e8edf1;
+    }
+    #range::-moz-range-thumb {
+      -webkit-appearance: none;
+      width: 35px;
+      height: 35px;
+      border: 3px solid $col-green;
+      background-color: #ffffff;
+      border-radius: 50%;
+      cursor: pointer;
+      background-image: url(../img/arrow-drag.png);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
     .range-to {
       p {
         font-size: 14px;
